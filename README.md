@@ -1,16 +1,19 @@
-# INTERNETIL — Internet Plans Website V3
+# INTERNETIL — Realistic ISP Website V4
 
-Premium ISP-style single-file website for INTERNETIL.
+A more realistic, professional ISP-style website concept for INTERNETIL.
 
-## Included
-- Hero focused on home internet
-- 300 Mbps, 500 Mbps, 1 Gig and 2 Gig demo plan cards
-- Premium responsive design
-- Benefits and Wi-Fi sections
-- Check Availability / Select Plan calls to action
-- All CSS embedded in `index.html`
+## Improvements
+- Real ISP-style address availability panel
+- Cleaner white plan cards
+- 300 Mbps / 500 Mbps / 1 Gig / 2 Gig plan concepts
+- Plan comparison table
+- Responsive laptop/mobile layout
+- Professional benefits and customer journey
+- Single `index.html`, so GitHub Pages has no CSS/JS path problems
 
-## GitHub Pages
-Replace the existing `index.html` in the root of `internetil-website`.
+## Important
+The prices, speeds, availability and plan specifications are demonstration content only.
+Replace them with INTERNETIL's actual commercial terms before launch.
 
-> Prices, speeds, availability and commercial terms shown here are demonstration content and must be replaced with INTERNETIL's real service information before commercial launch.
+## Upload
+Replace the existing root `index.html` in `internetil-website`, then wait for GitHub Pages to redeploy.

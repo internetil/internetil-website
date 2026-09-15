@@ -2,51 +2,65 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>INTERNETIL | Internet Plans</title>
-<meta name="description" content="INTERNETIL internet plans for connected homes and businesses.">
+<title>INTERNETIL | Home Internet Plans</title>
+<meta name="description" content="Explore INTERNETIL home internet plan concepts and connectivity options.">
 <style>
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#030a12;color:#f7fbff;font-family:Arial,Helvetica,sans-serif}
-:root{--blue:#2f91ff;--cyan:#58d7ff;--navy:#07192a;--line:#194568;--muted:#9fc5e5}
-.top{background:linear-gradient(90deg,#347eff,#59d4ff);text-align:center;padding:10px;font-weight:900;letter-spacing:2px;font-size:12px}
-nav{height:84px;display:flex;align-items:center;justify-content:space-between;padding:0 6%;border-bottom:1px solid var(--line);background:#020810;position:sticky;top:0;z-index:5}
-.brand{font-size:25px;font-weight:950;letter-spacing:1px}.brand span{color:var(--cyan)}nav a{color:white;text-decoration:none;font-weight:800;margin:0 16px;font-size:14px}
-.btn{display:inline-block;background:linear-gradient(90deg,#3189ff,#58cfff);color:white;text-decoration:none;font-weight:900;padding:16px 24px;border-radius:8px;border:0;cursor:pointer}
-.btn.alt{background:transparent;border:1px solid #4fbfff}.hero{min-height:570px;padding:70px 6%;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;background:radial-gradient(circle at 80% 35%,#164a78 0,#0b2139 27%,#030a12 58%)}
-.eyebrow{color:var(--cyan);font-weight:900;letter-spacing:4px;font-size:12px}.hero h1{font-size:72px;line-height:.9;margin:20px 0;max-width:680px}.hero h1 span{color:#47adff}.hero p{color:#d3e7f8;font-size:20px;line-height:1.6;max-width:650px}
-.orb{width:380px;height:380px;margin:auto;border-radius:50%;border:1px solid #5ad4ff;background:radial-gradient(circle at 35% 25%,#4ec6ff,#2379c6 28%,#06101d 68%);display:grid;place-items:center;box-shadow:0 0 70px #1979c944}
-.orb b{font-size:150px;font-style:italic}.trust{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#071421}.trust div{padding:24px;text-align:center;border-right:1px solid var(--line)}.trust b{display:block}.trust small{color:var(--muted)}
-section{padding:76px 6%}.center{text-align:center}.section-title{font-size:44px;margin:10px 0}.sub{color:var(--muted);font-size:18px;max-width:720px;margin:0 auto 35px;line-height:1.5}
-.plans{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:1250px;margin:auto}.plan{background:linear-gradient(180deg,#0b2033,#06121e);border:1px solid #24577d;border-radius:16px;padding:28px;position:relative;box-shadow:0 16px 40px #0005}.plan.featured{border:2px solid #4ecbff;transform:translateY(-8px)}.badge{position:absolute;top:-13px;left:22px;background:#43b5ff;padding:7px 12px;border-radius:20px;font-size:11px;font-weight:900}.speed{font-size:42px;font-weight:950;margin:22px 0 2px}.unit{color:var(--cyan);font-weight:900}.price{font-size:38px;font-weight:950;margin:22px 0}.price small{font-size:14px;color:var(--muted)}.plan ul{padding-left:20px;color:#cce4f8;line-height:2}.plan .btn{width:100%;text-align:center}
-.note{color:#7599b8;font-size:12px;text-align:center;margin-top:25px}.compare{background:#071421}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1100px;margin:auto}.feature{border:1px solid #24577d;border-radius:14px;padding:28px;background:#081827}.feature .icon{font-size:32px}.feature p{color:var(--muted);line-height:1.5}
-.cta{max-width:1120px;margin:0 auto 70px;padding:45px;border:1px solid #3baeff;border-radius:18px;background:linear-gradient(110deg,#0a2034,#173e66);display:flex;align-items:center;justify-content:space-between}.cta h2{font-size:35px;margin:0 0 8px}.cta p{color:#c7e4fa;margin:0}
-footer{border-top:1px solid var(--line);padding:35px 6%;color:#789ab7;display:flex;justify-content:space-between;font-size:13px}
-@media(max-width:900px){nav .links{display:none}.hero{grid-template-columns:1fr;padding-top:45px}.hero h1{font-size:52px}.orb{width:280px;height:280px;margin-top:50px}.plans{grid-template-columns:1fr 1fr}.trust{grid-template-columns:1fr 1fr}.features{grid-template-columns:1fr}.cta{margin:0 5% 50px;display:block}.cta .btn{margin-top:20px}}
-@media(max-width:580px){.plans{grid-template-columns:1fr}.hero h1{font-size:43px}.plan.featured{transform:none}.section-title{font-size:34px}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f6f9fc;color:#07111d;font-family:Arial,Helvetica,sans-serif}
+:root{--ink:#06111e;--navy:#071a2d;--blue:#087cf0;--cyan:#35bdf7;--line:#d9e5ef;--muted:#536b80;--white:#fff}
+.top{background:#087cf0;color:#fff;text-align:center;padding:9px 16px;font-size:12px;font-weight:800;letter-spacing:1.5px}
+nav{height:78px;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 max(28px,6vw);position:sticky;top:0;z-index:10}
+.logo{font-size:25px;font-weight:950;letter-spacing:.5px}.logo span{color:var(--blue)}nav a{color:var(--ink);text-decoration:none;font-weight:800;margin:0 15px;font-size:14px}
+.btn{display:inline-block;border:0;border-radius:7px;background:var(--blue);color:#fff;text-decoration:none;font-weight:900;padding:15px 21px;cursor:pointer}.btn.outline{background:#fff;color:var(--ink);border:1px solid #8aa2b7}
+.hero{background:linear-gradient(115deg,#06111e 0%,#07182a 55%,#0d3153 100%);color:#fff;padding:78px max(28px,6vw);display:grid;grid-template-columns:1.05fr .95fr;gap:45px;align-items:center;min-height:515px}
+.kicker{font-size:12px;color:#56caff;font-weight:900;letter-spacing:3px}.hero h1{font-size:64px;line-height:.98;margin:18px 0}.hero h1 span{color:#49b8ff}.hero p{font-size:19px;line-height:1.55;color:#d2e5f5;max-width:620px}.hero .buttons{display:flex;gap:12px;margin-top:28px}
+.coverage{background:#fff;color:var(--ink);padding:28px;border-radius:14px;box-shadow:0 22px 55px #0005}.coverage h2{margin:0 0 8px;font-size:27px}.coverage p{color:var(--muted);font-size:15px}.address{display:flex;gap:8px;margin-top:18px}.address input{flex:1;min-width:0;padding:15px;border:1px solid #b8c9d8;border-radius:6px;font-size:15px}
+.micro{font-size:11px!important;color:#71879a!important}.benefitbar{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border-bottom:1px solid var(--line)}.benefitbar div{padding:22px;text-align:center;border-right:1px solid var(--line)}.benefitbar b{display:block;font-size:14px}.benefitbar small{color:var(--muted)}
+section{padding:70px max(28px,6vw)}.sectionhead{text-align:center;max-width:760px;margin:0 auto 38px}.sectionhead h2{font-size:42px;margin:10px 0}.sectionhead p{color:var(--muted);font-size:17px;line-height:1.5}
+.plans{max-width:1220px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.plan{background:#fff;border:1px solid #ccdce8;border-radius:12px;padding:26px;display:flex;flex-direction:column;min-height:480px;box-shadow:0 7px 24px #18334b0d}.plan.pop{border:2px solid var(--blue);position:relative}.tag{position:absolute;top:-14px;left:20px;background:var(--blue);color:#fff;border-radius:20px;padding:7px 12px;font-size:11px;font-weight:900}.plan h3{font-size:18px;margin:10px 0}.speed{font-size:42px;font-weight:950;margin:12px 0 0}.speed small{font-size:16px;color:var(--muted)}.price{font-size:34px;font-weight:950;margin:18px 0 2px}.price small{font-size:14px;color:var(--muted)}.use{color:var(--muted);font-size:13px;min-height:34px}.plan hr{border:0;border-top:1px solid #e3ebf2;width:100%;margin:18px 0}.plan ul{padding-left:19px;line-height:1.9;color:#243b50;font-size:14px;flex:1}.plan .btn{text-align:center;width:100%}
+.disclaimer{max-width:1100px;margin:22px auto 0;text-align:center;color:#71879a;font-size:11px;line-height:1.5}
+.compare{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}table{width:100%;max-width:1050px;margin:auto;border-collapse:collapse;background:#fff}th,td{text-align:left;padding:18px;border-bottom:1px solid #e2eaf0}th{font-size:13px;color:#486075}td:first-child{font-weight:800}
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1100px;margin:auto}.why article{background:#fff;border:1px solid var(--line);padding:28px;border-radius:12px}.why .ico{font-size:29px}.why p{color:var(--muted);line-height:1.5}
+.cta{margin:0 max(28px,6vw) 65px;background:#071a2d;color:#fff;border-radius:15px;padding:42px;display:flex;justify-content:space-between;align-items:center}.cta h2{margin:0 0 8px;font-size:32px}.cta p{margin:0;color:#c7dced}
+footer{background:#030a11;color:#9bb0c2;padding:35px max(28px,6vw);display:flex;justify-content:space-between;gap:20px;font-size:12px}
+@media(max-width:950px){.navlinks{display:none}.hero{grid-template-columns:1fr}.hero h1{font-size:49px}.plans{grid-template-columns:1fr 1fr}.benefitbar{grid-template-columns:1fr 1fr}.why{grid-template-columns:1fr}.cta{display:block}.cta .btn{margin-top:20px}}
+@media(max-width:600px){.plans{grid-template-columns:1fr}.address{display:block}.address .btn{width:100%;margin-top:8px}.hero h1{font-size:41px}.sectionhead h2{font-size:33px}footer{display:block;line-height:2}}
 </style>
 </head>
 <body>
-<div class="top">INTERNETIL • INTERNET FOR MODERN HOMES & BUSINESSES</div>
-<nav><div class="brand">INTERNET<span>IL</span></div><div class="links"><a href="#plans">Internet Plans</a><a href="#benefits">Benefits</a><a href="#about">About</a></div><a class="btn" href="#plans">CHECK AVAILABILITY</a></nav>
+<div class="top">INTERNETIL HOME INTERNET • CONNECTED HOMES, SIMPLIFIED</div>
+<nav><div class="logo">INTERNET<span>IL</span></div><div class="navlinks"><a href="#plans">Plans</a><a href="#compare">Compare</a><a href="#why">Why INTERNETIL</a><a href="#support">Support</a></div><a class="btn" href="#availability">Check availability</a></nav>
+
 <header class="hero">
-<div><div class="eyebrow">FAST • SMART • CONNECTED</div><h1>INTERNET THAT <span>MOVES WITH YOU.</span></h1><p>Choose the INTERNETIL speed that fits your home. Simple plan options, modern connectivity and Wi‑Fi-ready service concepts for everyday life.</p><a class="btn" href="#plans">VIEW INTERNET PLANS →</a> <a class="btn alt" href="#benefits">WHY INTERNETIL</a></div>
-<div class="orb"><b>I</b></div>
+<div><div class="kicker">HOME INTERNET</div><h1>Fast internet.<br><span>Simple choices.</span></h1><p>Choose an INTERNETIL speed tier for streaming, working, gaming and all the devices that keep your home connected.</p><div class="buttons"><a class="btn" href="#plans">View plans</a><a class="btn outline" href="#compare">Compare speeds</a></div></div>
+<div class="coverage" id="availability"><h2>Is INTERNETIL available at your address?</h2><p>Enter your service address to begin an availability check.</p><div class="address"><input aria-label="Service address" placeholder="Street address"><button class="btn" onclick="demoCheck()">Check address</button></div><p class="micro" id="availabilityMessage">Demo interface — no live service-area database is connected yet.</p></div>
 </header>
-<div class="trust"><div><b>⚡ Fast Speeds</b><small>Plans for everyday connectivity</small></div><div><b>📶 Wi‑Fi Ready</b><small>Built for connected homes</small></div><div><b>🔒 Secure Network</b><small>Modern network approach</small></div><div><b>🛠 Support</b><small>Customer-focused experience</small></div></div>
 
-<section id="plans" class="center"><div class="eyebrow">CHOOSE YOUR SPEED</div><h2 class="section-title">Internet plans for every home.</h2><p class="sub">From everyday browsing to high-performance connected homes. Pick the speed tier that matches how you stream, work, game and connect.</p>
+<div class="benefitbar"><div><b>⚡ Multiple speed tiers</b><small>Choose for your household</small></div><div><b>📶 Wi‑Fi-ready experience</b><small>For connected devices</small></div><div><b>🔒 Network-first design</b><small>Modern connectivity concept</small></div><div><b>💬 Customer support</b><small>Help when you need it</small></div></div>
+
+<section id="plans">
+<div class="sectionhead"><div class="kicker">INTERNET PLANS</div><h2>Find the speed that fits your home.</h2><p>Clear options for different connected lifestyles. Pricing and specifications below are presentation examples until INTERNETIL establishes live commercial service.</p></div>
 <div class="plans">
-<article class="plan"><h3>INTERNETIL 300</h3><div class="speed">300</div><div class="unit">Mbps</div><div class="price">$39.99 <small>/mo*</small></div><ul><li>Everyday browsing</li><li>HD streaming</li><li>Multiple devices</li></ul><a class="btn" href="#contact">SELECT PLAN</a></article>
-<article class="plan"><h3>INTERNETIL 500</h3><div class="speed">500</div><div class="unit">Mbps</div><div class="price">$49.99 <small>/mo*</small></div><ul><li>4K streaming</li><li>Work from home</li><li>Gaming & devices</li></ul><a class="btn" href="#contact">SELECT PLAN</a></article>
-<article class="plan featured"><span class="badge">MOST POPULAR</span><h3>INTERNETIL GIG</h3><div class="speed">1 GIG</div><div class="unit">HIGH-SPEED TIER</div><div class="price">$69.99 <small>/mo*</small></div><ul><li>Heavy streaming</li><li>Connected households</li><li>High-performance use</li></ul><a class="btn" href="#contact">SELECT PLAN</a></article>
-<article class="plan"><h3>INTERNETIL 2 GIG</h3><div class="speed">2 GIG</div><div class="unit">PREMIUM TIER</div><div class="price">$89.99 <small>/mo*</small></div><ul><li>Power users</li><li>Many connected devices</li><li>Premium performance</li></ul><a class="btn" href="#contact">SELECT PLAN</a></article>
-</div><p class="note">*Demo pricing and plan specifications for website presentation only. Availability, actual speeds, equipment, taxes, fees and commercial terms must be defined before launch.</p></section>
+<article class="plan"><h3>Internet 300</h3><div class="speed">300 <small>Mbps</small></div><div class="price">$39.99 <small>/mo*</small></div><div class="use">A starting tier for everyday connected homes.</div><hr><ul><li>Up to 300 Mbps demo download tier</li><li>Streaming & browsing</li><li>Video calls and everyday devices</li><li>Wi‑Fi-ready service concept</li></ul><a class="btn" href="#availability">Check availability</a></article>
+<article class="plan"><h3>Internet 500</h3><div class="speed">500 <small>Mbps</small></div><div class="price">$49.99 <small>/mo*</small></div><div class="use">More capacity for busy households.</div><hr><ul><li>Up to 500 Mbps demo download tier</li><li>4K streaming</li><li>Gaming & work from home</li><li>Multiple connected devices</li></ul><a class="btn" href="#availability">Check availability</a></article>
+<article class="plan pop"><span class="tag">MOST POPULAR</span><h3>Internet Gig</h3><div class="speed">1 Gig</div><div class="price">$69.99 <small>/mo*</small></div><div class="use">High-performance tier for connected households.</div><hr><ul><li>Up to 1 Gig demo download tier</li><li>Heavy streaming & gaming</li><li>Large connected households</li><li>High-bandwidth everyday use</li></ul><a class="btn" href="#availability">Check availability</a></article>
+<article class="plan"><h3>Internet 2 Gig</h3><div class="speed">2 Gig</div><div class="price">$89.99 <small>/mo*</small></div><div class="use">Premium concept tier for power users.</div><hr><ul><li>Up to 2 Gig demo download tier</li><li>Many connected devices</li><li>Premium performance tier</li><li>Built for demanding households</li></ul><a class="btn" href="#availability">Check availability</a></article>
+</div>
+<div class="disclaimer">*All prices, speeds, plan names and specifications on this prototype are demonstration content only. They do not constitute an offer of service. Actual availability, speeds, equipment, installation, taxes, fees, terms and pricing must be established before commercial launch.</div>
+</section>
 
-<section id="benefits" class="compare center"><div class="eyebrow">THE INTERNETIL EXPERIENCE</div><h2 class="section-title">More than just speed.</h2><p class="sub">A premium internet experience should be simple from choosing a plan to getting your home connected.</p><div class="features">
-<div class="feature"><div class="icon">📶</div><h3>Whole-home Wi‑Fi</h3><p>A modern Wi‑Fi experience designed around connected phones, TVs, computers and smart devices.</p></div>
-<div class="feature"><div class="icon">🚀</div><h3>Built for performance</h3><p>Speed tiers designed to make it easy to choose the right level of connectivity for your household.</p></div>
-<div class="feature"><div class="icon">🛡️</div><h3>Simple & secure</h3><p>A clean customer experience with security, reliability and support positioned at the center.</p></div></div></section>
+<section class="compare" id="compare"><div class="sectionhead"><div class="kicker">COMPARE</div><h2>Which speed is right for you?</h2></div>
+<table><thead><tr><th>Plan concept</th><th>Speed tier</th><th>Typical use case</th><th>Demo price</th></tr></thead><tbody>
+<tr><td>Internet 300</td><td>Up to 300 Mbps</td><td>Browsing, streaming, video calls</td><td>$39.99/mo*</td></tr>
+<tr><td>Internet 500</td><td>Up to 500 Mbps</td><td>4K streaming, gaming, remote work</td><td>$49.99/mo*</td></tr>
+<tr><td>Internet Gig</td><td>Up to 1 Gig</td><td>Busy connected households</td><td>$69.99/mo*</td></tr>
+<tr><td>Internet 2 Gig</td><td>Up to 2 Gig</td><td>High-demand connected homes</td><td>$89.99/mo*</td></tr></tbody></table></section>
 
-<section id="about" class="center"><div class="eyebrow">WHY INTERNETIL</div><h2 class="section-title">Connected life. Simplified.</h2><p class="sub">INTERNETIL is building a modern internet, connectivity and digital-solutions brand for connected homes and businesses.</p></section>
-<div id="contact" class="cta"><div><div class="eyebrow">READY TO CONNECT?</div><h2>Find the right INTERNETIL plan.</h2><p>Check service availability and choose the speed that fits your home.</p></div><a class="btn" href="mailto:">CHECK AVAILABILITY →</a></div>
+<section id="why"><div class="sectionhead"><div class="kicker">WHY INTERNETIL</div><h2>A cleaner internet experience.</h2><p>INTERNETIL is being developed as a modern connectivity brand with simple plan presentation and a customer-first digital experience.</p></div>
+<div class="why"><article><div class="ico">📡</div><h3>Connected-home ready</h3><p>A service concept designed around the phones, computers, TVs and smart devices people use every day.</p></article><article><div class="ico">🚀</div><h3>Easy speed choices</h3><p>Simple tiers make it easier to understand the level of connectivity that may fit each household.</p></article><article><div class="ico">🛠️</div><h3>Support-focused</h3><p>A professional customer journey can later connect availability, ordering, installation and account support.</p></article></div></section>
+
+<div class="cta" id="support"><div><h2>Ready to find your INTERNETIL plan?</h2><p>Start with an address check, then choose the speed tier that fits your home.</p></div><a class="btn" href="#availability">Check availability →</a></div>
 <footer><b>INTERNETIL</b><span>Internet • Connectivity • Digital Solutions</span><span>© 2026 INTERNETIL. All rights reserved.</span></footer>
+<script>
+function demoCheck(){document.getElementById('availabilityMessage').textContent='Availability lookup is not connected yet. Connect a real service-area/address system before launch.'}
+</script>
 </body></html>
